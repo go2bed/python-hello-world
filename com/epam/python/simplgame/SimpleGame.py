@@ -14,7 +14,7 @@ def get_input():
         noun_word = command[1]
         print(verb(noun_word))
     else:
-        print(verb("nothing"))
+        print(verb("application has been stopped"))
 
 
 def say(noun):
